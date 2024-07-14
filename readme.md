@@ -1,4 +1,4 @@
-Welcome to the guide to remove Microsoft Family!
+#  Welcome to the guide to remove Microsoft Family! 
 
 by Sttripe
 
@@ -8,7 +8,7 @@ by Sttripe
 
 
 
-[1] INSTALLING PSEXEC:
+## [1] INSTALLING PSEXEC:
 
 1. Head too : (https://learn.microsoft.com/en-us/sysinternals/downloads/psexec) and download the file on the page.
 
@@ -23,7 +23,7 @@ by Sttripe
 6. put "whoami" in the new terminal window  to ensure you are running at nt/system
 
 
-[2] Running The program killer:
+## [2] Running The program killer:
 
 1. In your terminal window , run "cd [The Directory of this instructions]"
 
@@ -32,7 +32,7 @@ by Sttripe
 3. This should begin running a program that will continuosly kill "WpcMon.exe" or Microsoft Family
 
 
-[3] Removing Microsoft Family:
+## [3] Removing Microsoft Family:
 
 1. go to C:/Windows/System32 in your file explorer (for ease click the shortcut provided)
 
@@ -51,7 +51,7 @@ by Sttripe
 8. Simply Delete the file , if any issues ensure ProgramKiller is running and repeat from Step 2
 
 
-[4] Removing Startup from TaskScheduler:
+## [4] Removing Startup from TaskScheduler:
 
 1. Search for Taskscheduler in the windows search and run
 
@@ -64,7 +64,7 @@ by Sttripe
 3. Once in Shell simply delete the scheduled tasks that refer to FamilySafetyMonitor
 
 
-[5] Finishing Up:
+## [5] Finishing Up:
 
 1. Close all programs including the terminal running the program killer
 
@@ -73,11 +73,15 @@ by Sttripe
 3. Restart your computer, and you should be free from control
 
 
+---
+
+
 **NOTE: May return after Windows Updates so will have to repeat steps**
 
 Thank you for following the guide, recommendations and spreading how are appreciated.
 
 Enjoy a free computer experience! - Sttripe
+```
                          ______                     
  _________        .---"""      """---.              
 :______.-':      :  .--------------.  :             
@@ -97,5 +101,6 @@ Enjoy a free computer experience! - Sttripe
                .'.eeeeeeeeeeeeeeeeeeeeee.'.         
               :____________________________:
 
+```
 
-Planning to make this process more automated so stay tuned for an easier solution especially after windows updates
+*Planning to make this process more automated so stay tuned for an easier solution especially after windows updates*
